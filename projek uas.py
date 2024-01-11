@@ -61,7 +61,7 @@ def main():
 
         # Menampilkan struk pembelian
         print("\n============ Struk Pembelian ============")
-        print(f"Nama Kasir \t\t= {nama_kasir}\t\t|")
+        print(f"Nama Kasir \t\t= {nama_kasir}\t|")
         print("=========================================")
         for pilihan, jumlah in pesanan.items():
             print(f"{menu[pilihan]['item']} Sejumlah {jumlah} \t= Rp {menu[pilihan]['harga'] * jumlah}\t|")
